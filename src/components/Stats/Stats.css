@@ -1,0 +1,32 @@
+.Stats{
+    width:60%;
+    display: flex;
+    margin: auto;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+}
+
+.StatsDoughnut{
+    display:flex;
+    margin:auto;
+    justify-content:center;
+    width:60%;
+}
+
+.StatsDoughnut canvas{
+    width:100% !important;
+    height:100% !important;
+}
+
+.StatsTable{
+    margin-top:20px;
+}
+
+.StatsTable td{
+    border:1px solid #ccc;
+}
+
+.StatsTableTotal {background-color:#ccc}
+.StatsTableSystole {background-color:#75e0ff}
+.StatsTableDiastole {background-color:#a7ebc4}

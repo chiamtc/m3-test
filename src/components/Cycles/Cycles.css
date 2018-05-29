@@ -1,0 +1,10 @@
+.Cycles{
+    width:60%;
+    display:block;
+    margin:auto;
+    text-align:center;
+}
+
+.Cycles canvas{
+    cursor:pointer;
+}
